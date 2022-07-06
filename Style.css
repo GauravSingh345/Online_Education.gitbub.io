@@ -1,0 +1,308 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+a{
+     text-decoration: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+  color: #000;
+  text-align: center;
+  margin-bottom: 40px;
+ font-family: 'Playfair Display', serif;
+}
+.section h2.section-head:after{
+  background: #1a8585;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+}
+#header{
+  color: #fff;
+  background: #2BC0E4; 
+  background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  
+  background: linear-gradient(to right, #EAECC6, #2BC0E4); 
+
+}
+#logo{
+    padding-top: 7px;
+    font-size: 2rem;
+    font-family: 'Yellowtail', cursive;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* float: right; */
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+     text-decoration: none;
+}
+#menu li a:hover{
+    background:#2bafc0;
+}
+
+#banner{
+    font-family: 'Dancing Script', cursive;  
+    /* background: url('../Website img/banner.jpg'); */
+    background: url('https://imageio.forbes.com/specials-images/imageserve/5d7a9c680762110008c20a52/0x0.jpg?format=jpg&width=1200')no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin:0;
+   /* font-family: 'Secular One', sans-serif; */
+   color: #544949;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(40, 194, 215, 0.7);
+    padding: 10px;
+}
+.banner-title h1::after{
+     content: '';
+     animation: Text 10s infinite linear;
+     color: #007aff;
+}
+
+@keyframes Text{
+    0%{
+        content: 'Learn Online Courses';
+    }
+    25%{
+        content: 'Web Designing';
+    }
+     50%{
+        content: 'Graphic Designing';
+    }
+      75%{
+        content: 'UI UX Designing';
+    }
+      100%{
+        content: "Web Developing";
+    }
+}
+#Developer{
+    text-align: center;
+    cursor: pointer;
+}
+#Developer img{
+    width: 60px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    
+}
+#Developer a{
+    color: #000;
+}
+#Developer .Developer2:hover{
+  background: #FFE000; 
+  color: #fff
+}
+#Developer .Developer3:hover{
+   background: #8E2DE2;  
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+   color: #fff;
+}
+#Developer .Developer1:hover{
+   background: #8E2DE2;  
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2); 
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+   color: #fff;
+}
+/* ................Section-4 .................*/
+#Courses{
+    color:#fff;
+    font-weight: 700;
+    background: url('https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210310114057/web-development-image.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    position: 50px 0;
+    position: relative;
+   font-family: 'Kalam', cursive;
+}
+/* #Courses::before{
+    background-color: rgb(52, 73, 94,0.1);
+    content: '';
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+   
+} */
+.Course img:hover{
+   width: 90px;
+}
+.Youtuber a{
+    color: #fff;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.Course img{
+      border-radius: 50%;
+      width: 60px;
+     cursor: pointer;
+}
+.Courses-post:hover{
+    text-align: center;
+    color: #fff ;
+  background: #1CD8D2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ border-radius: 20px;
+}
+.Courses-post img{
+   width: 100%;
+   margin-bottom: 10px;
+
+}
+.Courses-post h3{
+    font-size: 1.35rem;
+}
+
+.Courses-post h3 a{
+    color:#1c3f46;
+    text-decoration: none;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.post-date::before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+a.readmore{
+    font-size: 14px;
+    color: #1c3f46;
+    text-decoration: none;
+}
+a.readmore::after{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+#footer-sidebar{
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4::after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-widget a{
+    color: #fff;
+}
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0%;
+
+}
+.latest-news li a{
+   text-decoration: none;
+}
+.latest-news li{
+    margin-bottom: 3px;
+    
+}
+.latest-news li::before{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 5px;
+    
+}
+
+#footer{
+    color: #fff;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+#social-iocns{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-decoration: none;
+}
+#social-iocns li{
+    display: inline-block;
+    padding-left: 5px;
+}#social-iocns li a{
+  color: #fff;
+  font-size: 23px;
+}
+/* ************Medium Screen **************** */
+@media (max-width:992px) {
+    .Courses-post{
+        margin-bottom: 30px;
+     }
+}
+/* **********Small Screen *************/
+@media (max-width:768px) {
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+    }
+    .banner-title{
+    padding-top: 0;
+   }
+   .banner-title h1{
+    font-size: 1.7rem;
+   }
+    .section{
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .Course{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+     .Developer{
+        margin-bottom: 30px;
+     }
+  
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+
+    #footer{
+        text-align: center;
+    }
+    #social-iocns{
+        margin: -22px 0px;
+    }
+}
